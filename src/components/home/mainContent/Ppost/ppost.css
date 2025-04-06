@@ -1,0 +1,82 @@
+.popularPost {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.items {
+  padding: 10px;
+}
+
+.box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.box:hover .img img {
+  transform: scale(1.1);
+}
+
+/* Title overlay on image */
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.overlay h2 {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.text {
+  padding: 10px;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.date i {
+  color: #ff6600;
+}
+
+/* .category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: crimson;
+  padding: 5px 10px;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 5px;
+} */

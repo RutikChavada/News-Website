@@ -1,0 +1,76 @@
+/* Card component styles */
+.box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* max-width: 300px; */
+    /* margin: 20px; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+  }
+  
+  /* Image styles */
+  .img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the box area */
+    transition: transform 0.3s ease;
+  }
+  
+  /* .box:hover .img img {
+    transform: scale(1.1);
+  } */
+  
+  /* Title styles */
+  .titleBg {
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    /* left: 20px;
+    right: 20px; */
+    /* z-index: 2; */
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 5px;
+    margin: 0;
+  }
+  
+  .text{
+    margin-left: -10px;
+  }
+
+  .text .author {
+    font-size: 0.875rem;
+    color: #999;
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
